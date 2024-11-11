@@ -3,7 +3,7 @@ const fs = require('fs');
 const count = Number(process.argv[2]); // odczyt liczby obiektów
 let names = [];                        // tablica z obiektami 
 
-fs.readFile('./names.txt', 'utf8', (err, data) => {
+fs.readFile('src/data/names.txt', 'utf8', (err, data) => {
     if (err) {
         console.error(err);
         return;

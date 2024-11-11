@@ -14,7 +14,7 @@ function App() {
   return (
     <RootLayout>
       <Routes>
-        <Route path="/about" element={<h1>Jakub Cepielik</h1>}/>
+        <Route path="/home" element={<h1>Jakub Cepielik</h1>}/>
         <Route path="/lab1" element={<Lab1Page name = {data}/>}/>
         <Route path="/lab2" element={<Outlet/>}>
             <Route path="people" element={<h1>People</h1>}></Route>
