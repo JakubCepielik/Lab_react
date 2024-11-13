@@ -1,71 +1,71 @@
 export const data = [{
         id:1, 
-        name: "Małgorzata",
-        birth: "20.03.2001",
-        eyes: "blue"
+        name: "Simba",
+        birth: "21.02.2017",
+        eyes: "green"
         
 },
 {
         id:2, 
-        name: "Mikołaj",
-        birth: "25.04.2002",
+        name: "Max",
+        birth: "10.04.2012",
         eyes: "brown"
         
 },
 {
         id:3, 
-        name: "Cezary",
-        birth: "31.08.2005",
+        name: "Mikołaj",
+        birth: "29.07.2008",
         eyes: "blue"
         
 },
 {
         id:4, 
-        name: "Cezary",
-        birth: "19.01.2013",
-        eyes: "brown"
-        
-},
-{
-        id:5, 
-        name: "Max",
-        birth: "12.04.2024",
+        name: "Małgorzata",
+        birth: "31.08.2011",
         eyes: "blue"
         
 },
 {
+        id:5, 
+        name: "Cezary",
+        birth: "13.04.2016",
+        eyes: "brown"
+        
+},
+{
         id:6, 
-        name: "Andrzej",
-        birth: "25.08.2013",
-        eyes: "green"
+        name: "Mikołaj",
+        birth: "26.10.2023",
+        eyes: "brown"
         
 },
 {
         id:7, 
-        name: "Małgorzata",
-        birth: "10.04.2019",
-        eyes: "brown"
+        name: "Andrzej",
+        birth: "16.11.2012",
+        eyes: "blue"
         
 },
 {
         id:8, 
-        name: "Mikołaj",
-        birth: "1.12.2001",
-        eyes: "green"
-        
-},
-{
-        id:9, 
-        name: "Mikołaj",
-        birth: "13.03.2015",
+        name: "Mateusz",
+        birth: "11.03.2013",
         eyes: "brown"
         
 },
 {
-        id:10, 
+        id:9, 
         name: "Andrzej",
-        birth: "28.10.2012",
-        eyes: "green"
+        birth: "26.12.2014",
+        eyes: "blue"
+        
+},
+{
+        id:10, 
+        name: "Mikołaj",
+        birth: "17.10.2017",
+        eyes: "blue"
         
 },
 ];
