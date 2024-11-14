@@ -1,71 +1,81 @@
 export const data = [{
         id:1, 
-        name: "Simba",
-        birth: "21.02.2017",
-        eyes: "green"
+        name: "Cezary",
+        birth: "22.07.2004",
+        eyes: "brown",
+        rating: "4"
         
 },
 {
         id:2, 
-        name: "Max",
-        birth: "10.04.2012",
-        eyes: "brown"
+        name: "Simba",
+        birth: "18.09.2019",
+        eyes: "brown",
+        rating: "1"
         
 },
 {
         id:3, 
         name: "Mikołaj",
-        birth: "29.07.2008",
-        eyes: "blue"
+        birth: "18.10.2008",
+        eyes: "brown",
+        rating: "4"
         
 },
 {
         id:4, 
-        name: "Małgorzata",
-        birth: "31.08.2011",
-        eyes: "blue"
+        name: "Cezary",
+        birth: "13.07.2014",
+        eyes: "blue",
+        rating: "1"
         
 },
 {
         id:5, 
-        name: "Cezary",
-        birth: "13.04.2016",
-        eyes: "brown"
+        name: "Simba",
+        birth: "8.06.2019",
+        eyes: "blue",
+        rating: "6"
         
 },
 {
         id:6, 
-        name: "Mikołaj",
-        birth: "26.10.2023",
-        eyes: "brown"
+        name: "Max",
+        birth: "19.07.2003",
+        eyes: "brown",
+        rating: "7"
         
 },
 {
         id:7, 
-        name: "Andrzej",
-        birth: "16.11.2012",
-        eyes: "blue"
+        name: "Małgorzata",
+        birth: "19.01.2004",
+        eyes: "green",
+        rating: "5"
         
 },
 {
         id:8, 
-        name: "Mateusz",
-        birth: "11.03.2013",
-        eyes: "brown"
+        name: "Max",
+        birth: "28.02.2004",
+        eyes: "green",
+        rating: "8"
         
 },
 {
         id:9, 
-        name: "Andrzej",
-        birth: "26.12.2014",
-        eyes: "blue"
+        name: "Małgorzata",
+        birth: "31.10.2024",
+        eyes: "brown",
+        rating: "3"
         
 },
 {
         id:10, 
-        name: "Mikołaj",
-        birth: "17.10.2017",
-        eyes: "blue"
+        name: "Max",
+        birth: "5.05.2014",
+        eyes: "brown",
+        rating: "3"
         
 },
-];
+]; export default data

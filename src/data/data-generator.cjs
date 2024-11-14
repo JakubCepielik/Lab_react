@@ -21,10 +21,11 @@ fs.readFile('src/data/names.txt', 'utf8', (err, data) => {
         id:${i+1}, 
         name: "${names[~~((Math.random() * names.length) / 1)]}",
         birth: "${new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime())).toLocaleDateString() }",
-        eyes: "${eyes[~~((Math.random() * eyes.length) / 1)]}"
+        eyes: "${eyes[~~((Math.random() * eyes.length) / 1)]}",
+        rating: "${Math.floor(Math.random() * 10)}"
         \n},\n`; 
     }
-    content += "];"
+    content += "]; export default data"
     //zapis łańcucha do pliku 
     fs.writeFile('./src/data/module-data.js', content, (err) => {
         if (err) {

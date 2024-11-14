@@ -2,6 +2,7 @@ import { data } from "./module-data.js";
 import HomePage from "../pages/HomePage";
 import Lab1Page from "../pages/Lab1Page";
 import Lab2Page from "../pages/Lab2Page";
+import Lab3Page from "../pages/Lab3Page";
 
 export const menuItemsFile = [
 {
@@ -24,5 +25,12 @@ export const menuItemsFile = [
     url: "/lab2/1",
     urlPattern: "/lab2/:id",
     element: <Lab2Page/>
+},
+{
+    id: 4,
+    label: "Laboratorium 3",
+    url: "/lab3",
+    urlPattern: "/lab3",
+    element: <Lab3Page/>
 },
 ];

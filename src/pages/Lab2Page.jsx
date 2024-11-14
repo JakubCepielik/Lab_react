@@ -23,6 +23,8 @@ function Lab2Page() {
     }
     return ( 
         <>
+        <h1>Laboratorium 2</h1>
+        <h3>Wyszukana osoba</h3>
         <Container>
         <Row>
         <PersonalInfo id={person.id} name={person.name} birth={person.birth} eyes={person.eyes}/>
