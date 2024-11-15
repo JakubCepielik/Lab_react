@@ -15,13 +15,33 @@ function PersonalInfo({id, name, birth, eyes, rating, dispatch}) {
             <ListGroup.Item>Kolor oczu: {eyes}</ListGroup.Item>
             <ListGroup.Item><RatingBar rate={rating} /></ListGroup.Item>
           </ListGroup>
-          <Button variant="primary" className="ms-1">Edit</Button>
-          <Button variant="danger" className="ms-1">Delete</Button>
+          <Button variant="primary" className="ms-1"
+          onClick={() => {
+            dispatch({
+                    type: "edit",
+                    id: id
+                        });
+                    }
+             } 
+          >
+           Edit
+          </Button>
+          <Button variant="danger" className="ms-1"
+          onClick={() => {
+            dispatch({
+                    type: "delete",
+                    id: id
+                        });
+                    }
+             } 
+          >
+            Delete
+          </Button>
           <Button variant="success" className="ms-1" 
           //onClick={(e) => setRate((rate + 1) % 11)}
           onClick={e => dispatch({
             type: "rate",
-           id: id,
+            id: id,
             rating: (rating + 1) % 11
           })}
           >
