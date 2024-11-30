@@ -1,81 +1,81 @@
 export const data = [{
         id:1, 
-        name: "Kuba",
-        birth: "19.09.2023",
-        eyes: "green",
-        rating: "8"
+        name: "Małgorzata",
+        birth: "2.08.2012",
+        eyes: "brown",
+        rating: "3"
         
 },
 {
         id:2, 
-        name: "Mateusz",
-        birth: "12.12.2016",
+        name: "Andrzej",
+        birth: "30.10.2008",
         eyes: "blue",
-        rating: "1"
+        rating: "9"
         
 },
 {
         id:3, 
-        name: "Cezary",
-        birth: "4.10.2002",
-        eyes: "brown",
-        rating: "4"
+        name: "Małgorzata",
+        birth: "20.01.2003",
+        eyes: "blue",
+        rating: "2"
         
 },
 {
         id:4, 
         name: "Mateusz",
-        birth: "5.08.2009",
-        eyes: "blue",
-        rating: "7"
+        birth: "16.07.2016",
+        eyes: "green",
+        rating: "8"
         
 },
 {
         id:5, 
         name: "Andrzej",
-        birth: "14.04.2018",
+        birth: "15.06.2019",
         eyes: "brown",
         rating: "3"
         
 },
 {
         id:6, 
-        name: "Cezary",
-        birth: "24.02.2001",
-        eyes: "green",
-        rating: "8"
+        name: "Mateusz",
+        birth: "29.01.2011",
+        eyes: "blue",
+        rating: "1"
         
 },
 {
         id:7, 
-        name: "Andrzej",
-        birth: "23.01.2008",
-        eyes: "green",
-        rating: "4"
+        name: "Cezary",
+        birth: "19.09.2019",
+        eyes: "brown",
+        rating: "3"
         
 },
 {
         id:8, 
-        name: "Andrzej",
-        birth: "23.10.2010",
+        name: "Cezary",
+        birth: "12.03.2017",
         eyes: "green",
-        rating: "4"
-        
-},
-{
-        id:9, 
-        name: "Max",
-        birth: "9.03.2006",
-        eyes: "brown",
         rating: "6"
         
 },
 {
-        id:10, 
+        id:9, 
         name: "Małgorzata",
-        birth: "22.11.2015",
-        eyes: "blue",
-        rating: "4"
+        birth: "23.01.2002",
+        eyes: "green",
+        rating: "1"
+        
+},
+{
+        id:10, 
+        name: "Simba",
+        birth: "25.08.2008",
+        eyes: "brown",
+        rating: "7"
         
 },
 ]; export default data

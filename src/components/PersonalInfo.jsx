@@ -7,7 +7,8 @@ import AppContext from '../data/AppContext';
 import { redirect } from 'react-router-dom';
 
 function PersonalInfo({id, name, birth, eyes, rating}) {
-    const dispatch = useContext(AppContext).dispatch;
+    const context = useContext(AppContext);
+    const dispatch = context.dispatch;
     return ( 
 
       <>

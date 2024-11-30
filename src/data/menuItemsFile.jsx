@@ -3,6 +3,8 @@ import HomePage from "../pages/HomePage";
 import Lab1Page from "../pages/Lab1Page";
 import Lab2Page from "../pages/Lab2Page";
 import Lab3Page from "../pages/Lab3Page";
+import CreateForm from "../components/CreateForm";
+import EditForm from "../components/EditForm";
 
 export const menuItemsFile = [
 {
@@ -33,5 +35,18 @@ export const menuItemsFile = [
     urlPattern: "/lab3",
     element: <Lab3Page/>
 },
-
+{
+    id: 5,
+    label: "Lab 4 - Dodaj",
+    url: "/lab4/add",
+    urlPattern: "/lab4/add",
+    element: <CreateForm/>
+},
+{
+    id: 6,
+    label: "Lab 4 - Edytuj",
+    url: "/lab4/edit/1",
+    urlPattern: "/lab4/edit/:id",
+    element: <EditForm/>
+},
 ];

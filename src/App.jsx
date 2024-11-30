@@ -5,9 +5,6 @@ import { menuItemsFile } from './data/menuItemsFile';
 import AppContext from "./data/AppContext";
 import { useReducer } from "react";
 import AppReducer from "./data/AppReducer";
-import EditForm from "./components/EditForm.jsx";
-import CreateForm from "./components/CreateForm.jsx";
-import Lab4Page from "./pages/Lab4Page.jsx";
 
 function App() {
   
@@ -22,9 +19,6 @@ function App() {
                               <Route key={item.id} path={item.urlPattern} element={item.element}/>
                           ))}
           <Route path="*" element={<h1>Page not found!</h1>}/>
-          <Route path="/lab4" element={<Lab4Page/>}/>
-          <Route path="/lab4/add" element={<CreateForm/>}/>
-          <Route path="/lab4/edit" element={<EditForm/>}/>
         </Routes>
       </RootLayout> 
     </AppContext.Provider>
