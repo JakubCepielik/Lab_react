@@ -71,7 +71,7 @@ function EditForm() {
         // Tu można wstawić logikę aktualizacji w stanie globalnym
         console.log("Zaktualizowane dane:", updatedPerson);
         alert("Dane zostały pomyślnie zaktualizowane.");
-        navigate("/lab4"); // Przekierowanie po zapisaniu
+        navigate("/lab3"); // Przekierowanie po zapisaniu
         } catch (error) {
         setErrors([error.message]);
         } finally {

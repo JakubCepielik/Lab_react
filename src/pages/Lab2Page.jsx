@@ -15,7 +15,7 @@ function Lab2Page() {
         <h3>Wyszukana osoba</h3>
         <Container>
         <Row>
-        <PersonalInfo id={person.id} name={person.name} birth={person.birth} eyes={person.eyes}/>
+        <PersonalInfo id={person.id} name={person.name} birth={person.birth} eyes={person.eyes} rating={person.rating}/>
         </Row>
         </Container>
         </> 
