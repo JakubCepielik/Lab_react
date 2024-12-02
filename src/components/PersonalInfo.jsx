@@ -4,13 +4,26 @@ import { Col, Button} from 'react-bootstrap';
 import RatingBar from '/src/components/RatingBar';
 import { useContext } from 'react';
 import AppContext from '../data/AppContext';
-import { redirect } from 'react-router-dom';
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function PersonalInfo({id, name, birth, eyes, rating}) {
   
     const context = useContext(AppContext);
     const dispatch = context.dispatch;
+    const navigate = useNavigate();
+    const handleDelete = () =>{
+      dispatch({
+        type: "delete",
+        id: id,
+      });
+      console.log(`Item with id ${id} deleted.`);
+        };
+    const handleEdit = () => {
+      navigate(`/lab4/edit/${id}`);
+    };
+
+    
+
     return ( 
 
       <>
@@ -24,17 +37,11 @@ function PersonalInfo({id, name, birth, eyes, rating}) {
               <ListGroup.Item>Kolor oczu: {eyes}</ListGroup.Item>
               <ListGroup.Item><RatingBar rate={rating} /></ListGroup.Item>
             </ListGroup>
-            <Button variant="primary" className="ms-1" /*onClick={ () => navigate(`/lab4/edit/${id}` ) }*/>
+            <Button variant="primary" className="ms-1" onClick={handleEdit}>
              Edit
             </Button>
             <Button variant="danger" className="ms-1"
-            onClick={() => {
-              dispatch({
-                      type: "delete",
-                      id: id
-                          });
-                      }
-               } 
+            onClick={handleDelete}
             >
               Delete
             </Button>

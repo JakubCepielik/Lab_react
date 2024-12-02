@@ -10,8 +10,8 @@ export const menuItemsFile = [
 {
     id: 1,
     label: "Home",
-    url: "/home",
-    urlPattern: "/home",
+    url: "/",
+    urlPattern: "/",
     element: <HomePage/>
 },
 {
@@ -42,11 +42,5 @@ export const menuItemsFile = [
     urlPattern: "/lab4/add",
     element: <CreateForm/>
 },
-{
-    id: 6,
-    label: "Lab 4 - Edytuj",
-    url: "/lab4/edit/1",
-    urlPattern: "/lab4/edit/:id",
-    element: <EditForm/>
-},
+
 ];

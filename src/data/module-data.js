@@ -1,80 +1,80 @@
 export const data = [{
         id:1, 
-        name: "Małgorzata",
-        birth: "2.08.2012",
+        name: "Max",
+        birth: "2.09.2006",
         eyes: "brown",
-        rating: "3"
-        
-},
-{
-        id:2, 
-        name: "Andrzej",
-        birth: "30.10.2008",
-        eyes: "blue",
-        rating: "9"
-        
-},
-{
-        id:3, 
-        name: "Małgorzata",
-        birth: "20.01.2003",
-        eyes: "blue",
         rating: "2"
         
 },
 {
+        id:2, 
+        name: "Cezary",
+        birth: "2.08.2005",
+        eyes: "brown",
+        rating: "7"
+        
+},
+{
+        id:3, 
+        name: "Mikołaj",
+        birth: "8.01.2011",
+        eyes: "brown",
+        rating: "9"
+        
+},
+{
         id:4, 
-        name: "Mateusz",
-        birth: "16.07.2016",
+        name: "Mikołaj",
+        birth: "25.05.2008",
+        eyes: "green",
+        rating: "5"
+        
+},
+{
+        id:5, 
+        name: "Cezary",
+        birth: "5.05.2004",
+        eyes: "brown",
+        rating: "6"
+        
+},
+{
+        id:6, 
+        name: "Andrzej",
+        birth: "9.06.2023",
+        eyes: "blue",
+        rating: "0"
+        
+},
+{
+        id:7, 
+        name: "Simba",
+        birth: "30.10.2018",
+        eyes: "green",
+        rating: "4"
+        
+},
+{
+        id:8, 
+        name: "Mikołaj",
+        birth: "25.12.2002",
         eyes: "green",
         rating: "8"
         
 },
 {
-        id:5, 
-        name: "Andrzej",
-        birth: "15.06.2019",
-        eyes: "brown",
-        rating: "3"
-        
-},
-{
-        id:6, 
-        name: "Mateusz",
-        birth: "29.01.2011",
-        eyes: "blue",
-        rating: "1"
-        
-},
-{
-        id:7, 
-        name: "Cezary",
-        birth: "19.09.2019",
-        eyes: "brown",
-        rating: "3"
-        
-},
-{
-        id:8, 
-        name: "Cezary",
-        birth: "12.03.2017",
-        eyes: "green",
-        rating: "6"
-        
-},
-{
         id:9, 
-        name: "Małgorzata",
-        birth: "23.01.2002",
+        name: "Simba",
+        birth: "25.01.2009",
         eyes: "green",
-        rating: "1"
+        rating: "0"
         
 },
 {
         id:10, 
-        name: "Simba",
-        birth: "25.08.2008",
-        eyes: "brown",
+        name: "Mateusz",
+        birth: "4.09.2016",
+        eyes: "blue",
         rating: "7"
         
 },
